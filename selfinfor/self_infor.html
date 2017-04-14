@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html" charset="UTF-8"/>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+    <title>self_infor</title>
+    <link rel="stylesheet" type="text/css" href="../dhtmlxSuite/codebase/fonts/font_roboto/roboto.css">
+    <link rel="stylesheet" type="text/css" href="../dhtmlxSuite/codebase/dhtmlx.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script type="text/javascript" src="../js/plugins/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="../js/plugins/angular.min.js"></script>
+    <script type="text/javascript" src="../js/plugins/basePath.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/codebase/dhtmlx.js"></script>
+    <script type="text/javascript" src="../js/selfinfor/self_infor.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+    <div class="self_infor" style="text-align: center;color: blue;margin-top: 100px" >
+        <h1>个人信息</h1>
+        <table class="tab_user">
+            <h2>姓名：<span>{{user_name}}</span></h2>
+            <h2>工号：<span>{{user_jobno}}</span></h2>
+            <!--绑定的数据不能中间有.-->
+            <h2>联系方式：<span>{{user_mobile}}</span></h2>
+            <h2>性别：<span>{{user_sex}}</span></h2>
+            <h2>部门：<span>{{user_depart}}</span></h2>
+            <h2>职位：<span>{{user_position}}</span></h2>
+            <h2>是否已婚：<span>{{user_marital}}</span></h2>
+            <h2>出生地：<span>{{user_birthplace}}</span></h2>
+            <h2>生日：<span>{{user_birthday}}</span></h2>
+            <h2>用户类型：<span>{{user_scope}}</span></h2>
+        </table>
+    </div>
+</body>
+</html>

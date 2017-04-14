@@ -1,0 +1,4 @@
+{items: [
+	{id: "business_list", text: "出差列表", icon: "recent.png", selected: true },
+	{id: "add_business", text: "新建出差任务", icon: "add.png"}
+]}

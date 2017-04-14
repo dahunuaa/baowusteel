@@ -1,0 +1,8 @@
+{items: [
+  {id:"self_business",text:"我的出差记录",icon:"documents.png",selected:true},
+  {id:"self_inforgather",text:"我的情报搜集",icon:"documents.png"},
+  {id:"self_inforguide",text:"我的信息指南",icon:"documents.png"},
+  {id:"self_notice",text:"我的通知公告",icon:"documents.png"},
+  {id:"self_infor",text:"我的个人信息",icon:"documents.png"},
+  {id:"changepsw",text:"修改密码",icon:"page_setup.png"},
+]}

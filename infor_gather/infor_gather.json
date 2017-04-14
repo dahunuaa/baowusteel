@@ -1,0 +1,15 @@
+{items:[
+      {id:"infor_gather_list",text:"情报列表",icon:"documents.png",selected:true},
+      {id:"add_infor_gather",text:"新建情报搜集",icon:"add.png"},
+      {id:"dongbei",text:"东北区域",icon:"documents.png"},
+      {id:"xinan",text:"西南区域",icon:"documents.png"},
+      {id:"zhonghaiyou",text:"中海油区域",icon:"documents.png"},
+      {id:"huabei",text:"华北区域",icon:"documents.png"},
+      {id:"huazhong",text:"华中区域",icon:"documents.png"},
+      {id:"huadong",text:"华东区域",icon:"documents.png"},
+      {id:"xinjiang",text:"新疆区域",icon:"documents.png"},
+      {id:"xibei",text:"西北区域",icon:"documents.png"},
+      {id:"like",text:"我的收藏",icon:"like.png"},
+]
+
+}

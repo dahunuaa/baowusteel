@@ -1,0 +1,5 @@
+{items:[
+  {id:"infor_guide_list",text:"信息指南",icon:"documents.png",selected:true},
+  {id:"like",text:"我的收藏",icon:"like.png"},
+  {id:"add_infor_guide",text:"新建信息指南",icon:"add.png"},
+]}

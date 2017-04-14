@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html" charset="UTF-8"/>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="dhtmlxSuite/codebase/fonts/font_roboto/roboto.css">
+    <link rel="stylesheet" type="text/css" href="dhtmlxSuite/codebase/dhtmlx.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/plugins/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="js/plugins/angular.min.js"></script>
+    <script type="text/javascript" src="js/plugins/basePath.js"></script>
+    <script type="text/javascript" src="dhtmlxSuite/codebase/dhtmlx.js"></script>
+    <script type="text/javascript" src="js/custom/index.js"></script>
+    <style type="text/css">
+        table#business_list tr td div{background: none;color: black;margin:0;padding: 0;}
+    </style>
+</head>
+<body ng-app = "myApp" ng-controller="myCtrl">
+<div class="header" style="position: static">
+    <div class="inner" >
+        <div class="logo floatl" style="margin-left: auto"><img src="imgs/baowu_logo.png"></div>
+        <div style="float:left;font-size: 20px;margin: 20px; font-weight: 700;color: blue">钢管用户服务互联平台</div>
+        <div class="welcome floatr ng-binding" style="margin: 25px;color: blue">欢迎登陆：<span>{{name}}</span></div>
+             <!--<span  style="cursor: pointer; color:blue;margin-left: 10px;" ng_click="login_out()" >&nbsp;退出</span>-->
+        <div class="clear"></div>
+    </div>
+</div>
+<!--<a id="qwe" href="infor_gather/add_inforgathe.html">新增情报搜集</a>-->
+<div id="tabbarObj">
+
+</div>
+
+<div class="copyRight" style="position: static">Copyright © 2017 中国宝武钢铁集团有限公司 沪ICP备05031718号<br>技术支持@dahu</div>
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="dhtmlxSuite/codebase/fonts/font_roboto/roboto.css">
+    <link rel="stylesheet" type="text/css" href="dhtmlxSuite/codebase/dhtmlx.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css" >
+    <script type="text/javascript" src="dhtmlxSuite/codebase/dhtmlx.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="js/plugins/angular.min.js"></script>
+    <script type="text/javascript" src="js/plugins/basePath.js"></script>
+    <script type="text/javascript" src="js/custom/login.js"></script>
+</head>
+
+
+<body class="loginpage" ng-app="myApp" ng-controller="myCtrl">
+    <div class="loginbox">
+        <div class="loginboxinner">
+            <div class="logo">
+                <img src="imgs/baowu_logo.png">
+                <br>
+                <h1 class="logo">钢管用户服务互联平台</h1>
+            </div>
+                <div class="username">
+                    <div class="usernameinner">
+                        <input type="text" id="phone" ng-model="user.name">
+                    </div>
+                </div>
+                <div class="password">
+                    <div class="passwordinner">
+                        <input type="password" ng-model="user.password">
+                    </div>
+                </div>
+                <button ng-click="to_login()">登录</button>
+            <p style="text-align: center;color:blue">Copyright © 2017 中国宝武钢铁集团有限公司 沪ICP备05031718号<br>技术支持@dahu</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{items:[
+  {id:"notice_list",text:"公告列表",icon:"documents.png",selected:true},
+  {id:"add_notice",text:"添加公告",icon:"add.png"},
+
+]}

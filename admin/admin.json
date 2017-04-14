@@ -1,0 +1,5 @@
+{items:[
+  {id:"users_list",text:"用户列表",icon:"documents.png",selected:true},
+  {id:"add_user",text:"添加用户",icon:"add.png"},
+
+]}

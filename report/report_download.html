@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../dhtmlxSuite/codebase/fonts/font_roboto/roboto.css">
+    <link rel="stylesheet" type="text/css" href="../dhtmlxSuite/codebase/dhtmlx.css">
+    <!--<link rel="stylesheet" type="text/css" href="../dhtmlxSuite/sources/dhtmlxGrid/codebase/skins/dhtmlxgrid_dhx_web.css">-->
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/kkpager_blue.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_font.css">
+
+    <script type="text/javascript" src="../js/plugins/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="../js/plugins/angular.min.js"></script>
+
+    <script type="text/javascript" src="../dhtmlxSuite/codebase/dhtmlx.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/codebase/dhtmlXGridCell.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxCommon/codebase/dhtmlxcommon.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/dhtmlxgrid.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlxgrid_pgn.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlXGrid_splt.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlXGrid_mcol.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlxgrid_drag.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlxgrid_filter.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/excells/dhtmlxgrid_excell_cntr.js"></script>
+    <script type="text/javascript" src="../js/plugins/basePath.js"></script>
+
+    <script type="text/javascript" src="../js/report/report_download.js"></script>
+    <script type="text/javascript" src="../js/plugins/kkpager.min.js"></script>
+
+</head>
+
+<body  ng-app="myApp" ng-controller="myCtrl" >
+<h1 style="width: 100%;text-align: center">报表下载</h1>
+
+<div class="public">
+    <table class="tab_user" style="height: auto;width: 800px">
+        <tr class="td_left" style="height: 100px">
+            <td class="td_left"><span class="red">*</span></span>数据表</td>
+            <td>
+                <select style="width: 300px;height: 50px" ng-model="report.model" ng-options="y.text for (x, y) in report_model"></select>
+            </td>
+        </tr>
+        <tr class="td_left" style="height: 100px" >
+            <td class="td_left"><span class="red">*</span>类型</td>
+            <td>
+                <label><input id="all" name="all" type="radio" value="all" style="width: 20px;height: 20px;" checked="true">所有数据</label>
+                <label><input id="time_desc" name="time_desc" type="radio" value="time_desc"style="width: 20px;height: 20px;">选择时间范围</label>
+            </td>
+        </tr>
+        <tr class="td_left" style="height: 100px" id="choose_time_desc">
+            <td class="td_left"><span class="red">*</span>选择时间范围</td>
+            <td><label>选择开始时间：<input style="width: 300px;height: 30px"  type="text"  ng-model="report.starttime" id="report_start_time"placeholder="请选择开始时间（必选）" ></label>
+            <br/>
+                <br/>
+                <label>选择结束时间：<input style="width: 300px;height: 30px"  type="text"  ng-model="report.endtime" id="report_end_time"placeholder="请选择结束时间（必选）" ></label></td>
+        </tr>
+    </table>
+    <button class="btn_blue" ng-click="submit()" style="width: auto;">下载报表</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <!--<button class="btn_blue" ng-click="back()">返回</button>-->
+</div>
+</body>
+<script>
+    document.getElementById("choose_time_desc").style.display="none"
+</script>
+</html>

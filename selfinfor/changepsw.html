@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../dhtmlxSuite/codebase/fonts/font_roboto/roboto.css">
+    <link rel="stylesheet" type="text/css" href="../dhtmlxSuite/codebase/dhtmlx.css">
+    <!--<link rel="stylesheet" type="text/css" href="../dhtmlxSuite/sources/dhtmlxGrid/codebase/skins/dhtmlxgrid_dhx_web.css">-->
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/kkpager_blue.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_font.css">
+
+    <script type="text/javascript" src="../js/plugins/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="../js/plugins/angular.min.js"></script>
+
+    <script type="text/javascript" src="../dhtmlxSuite/codebase/dhtmlx.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/codebase/dhtmlXGridCell.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxCommon/codebase/dhtmlxcommon.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/dhtmlxgrid.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlxgrid_pgn.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlXGrid_splt.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlXGrid_mcol.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlxgrid_drag.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/ext/dhtmlxgrid_filter.js"></script>
+    <script type="text/javascript" src="../dhtmlxSuite/sources/dhtmlxGrid/codebase/excells/dhtmlxgrid_excell_cntr.js"></script>
+    <script type="text/javascript" src="../js/plugins/basePath.js"></script>
+
+    <script type="text/javascript" src="../js/selfinfor/change_psw.js"></script>
+    <script type="text/javascript" src="../js/plugins/kkpager.min.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+<h3 style="width: 100%;text-align: center">修改密码</h3>
+
+<div class="public">
+    <table class="tab_user">
+        <tr class="td_left">
+            <td class="td_left"><span class="red">*</span> 原密码</td>
+            <td><input style="width: 300px;height: 50px" type="password" id="oldpsw" placeholder="请输入原密码" ng-model="self.oldpsw"></td>
+        </tr>
+        <tr class="td_left">
+            <td class="td_left"><span class="red">*</span> 新密码</td>
+            <td><input style="width: 300px;height: 50px" type="password" id="newpsw" placeholder="请输入新密码" ng-model="self.newpsw"></td>
+        </tr>
+        <tr class="td_left">
+            <td class="td_left"><span class="red">*</span> 确认新密码</td>
+            <td><input style="width: 300px;height: 50px" type="password" id="confirmpsw" placeholder="请确认新密码" ng-model="self.confirmpsw"></td>
+        </tr>
+    </table>
+    <button class="btn_blue" ng-click="submit()">提交</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+</div>
+
+</body>
+</html>
