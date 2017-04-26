@@ -23,12 +23,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit_inforgather.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selfinfor/edit_inforgather.html">
+      <file leaf-file-name="add_infor_gather.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infor_gather/add_infor_gather.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+            <state relative-caret-position="281">
+              <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_infor_gather.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/infor_gather/add_infor_gather.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="116" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_infor_guide.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/infor_guide/add_infor_guide.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail_infor_guide.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infor_guide/detail_infor_guide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="40" />
+              <folding>
+                <element signature="e#3234#3240#0" expanded="true" />
+                <element signature="e#3240#3246#0" expanded="true" />
+                <element signature="e#3246#3252#0" expanded="true" />
+                <element signature="e#3252#3258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail_infor_guide.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/infor_guide/detail_infor_guide.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+              <folding>
+                <marker date="1493211606346" expanded="true" signature="1741:1756" ph="..." />
+                <marker date="1493211606346" expanded="true" signature="1798:1804" ph=" " />
+                <marker date="1493211606346" expanded="true" signature="1804:1810" ph=" " />
+                <marker date="1493211606346" expanded="true" signature="1810:1816" ph=" " />
+                <marker date="1493211606346" expanded="true" signature="1937:1953" ph="..." />
+                <marker date="1493211606346" expanded="true" signature="2007:2017" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail_infor_gather.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/infor_gather/detail_infor_gather.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <marker date="1493203458790" expanded="true" signature="1735:1750" ph="..." />
+                <marker date="1493203458790" expanded="true" signature="1792:1798" ph=" " />
+                <marker date="1493203458790" expanded="true" signature="1798:1804" ph=" " />
+                <marker date="1493203458790" expanded="true" signature="1804:1810" ph=" " />
+                <marker date="1493203458790" expanded="true" signature="1931:1947" ph="..." />
+                <marker date="1493203458790" expanded="true" signature="2001:2011" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +130,10 @@
         <option value="$PROJECT_DIR$/infor_gather/detail_infor_gather.html" />
         <option value="$PROJECT_DIR$/js/infor_gather/detail_infor_gather.js" />
         <option value="$PROJECT_DIR$/js/infor_gather/add_infor_gather.js" />
+        <option value="$PROJECT_DIR$/infor_guide/add_infor_guide.html" />
+        <option value="$PROJECT_DIR$/js/infor_guide/add_infor_guide.js" />
+        <option value="$PROJECT_DIR$/infor_guide/detail_infor_guide.html" />
+        <option value="$PROJECT_DIR$/js/infor_guide/detail_infor_guide.js" />
       </list>
     </option>
   </component>
@@ -119,7 +202,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selfinfor" />
+              <option name="myItemId" value="infor_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baowusteel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baowusteel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infor_gather" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,16 +310,16 @@
       <workItem from="1492130985461" duration="118000" />
       <workItem from="1492136431447" duration="3888000" />
       <workItem from="1492680629182" duration="6000" />
-      <workItem from="1493179238292" duration="10220000" />
+      <workItem from="1493179238292" duration="10675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17156000" />
+    <option name="totallyTimeSpent" value="17611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15959005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -477,21 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infor_gather/detail_infor_gather.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
-          <folding>
-            <element signature="e#3512#3518#0" expanded="true" />
-            <element signature="e#3518#3524#0" expanded="true" />
-            <element signature="e#3524#3530#0" expanded="true" />
-            <element signature="e#3530#3536#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/report_download.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -504,45 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/infor_gather/detail_infor_gather.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding>
-            <marker date="1493203458790" expanded="true" signature="1735:1750" ph="..." />
-            <marker date="1493203458790" expanded="true" signature="1792:1798" ph=" " />
-            <marker date="1493203458790" expanded="true" signature="1798:1804" ph=" " />
-            <marker date="1493203458790" expanded="true" signature="1804:1810" ph=" " />
-            <marker date="1493203458790" expanded="true" signature="1931:1947" ph="..." />
-            <marker date="1493203458790" expanded="true" signature="2001:2011" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infor_gather/add_infor_gather.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/infor_gather/add_infor_gather.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -568,8 +611,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selfinfor/edit_inforgather.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+        <state relative-caret-position="81">
+          <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infor_guide/add_infor_guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infor_gather/add_infor_gather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/infor_gather/add_infor_gather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="116" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infor_gather/detail_infor_gather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <element signature="e#3512#3518#0" expanded="true" />
+            <element signature="e#3518#3524#0" expanded="true" />
+            <element signature="e#3524#3530#0" expanded="true" />
+            <element signature="e#3530#3536#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/infor_gather/detail_infor_gather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <marker date="1493203458790" expanded="true" signature="1735:1750" ph="..." />
+            <marker date="1493203458790" expanded="true" signature="1792:1798" ph=" " />
+            <marker date="1493203458790" expanded="true" signature="1798:1804" ph=" " />
+            <marker date="1493203458790" expanded="true" signature="1804:1810" ph=" " />
+            <marker date="1493203458790" expanded="true" signature="1931:1947" ph="..." />
+            <marker date="1493203458790" expanded="true" signature="2001:2011" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/infor_guide/detail_infor_guide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <marker date="1493211606346" expanded="true" signature="1741:1756" ph="..." />
+            <marker date="1493211606346" expanded="true" signature="1798:1804" ph=" " />
+            <marker date="1493211606346" expanded="true" signature="1804:1810" ph=" " />
+            <marker date="1493211606346" expanded="true" signature="1810:1816" ph=" " />
+            <marker date="1493211606346" expanded="true" signature="1937:1953" ph="..." />
+            <marker date="1493211606346" expanded="true" signature="2007:2017" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infor_guide/detail_infor_guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="40" />
+          <folding>
+            <element signature="e#3234#3240#0" expanded="true" />
+            <element signature="e#3240#3246#0" expanded="true" />
+            <element signature="e#3246#3252#0" expanded="true" />
+            <element signature="e#3252#3258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/infor_guide/add_infor_guide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
         </state>
       </provider>

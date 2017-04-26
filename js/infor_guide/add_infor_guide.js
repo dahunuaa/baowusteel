@@ -88,7 +88,27 @@ app.controller('myCtrl',function($scope,$http){
         }else if($scope.inforguide.text==""||$scope.inforguide.text==undefined||$scope.inforguide.text==null){
             dhx_alert("请填写正文！")
         }else{
-            // dhx_alert(JSON.stringify($scope.images))
+            var  file = document.getElementById("file_upload").files[0];
+            var formData = new FormData($("#uploadForm")[0]);
+            formData.append("access_token",localStorage.getItem("token"))
+            if(file!=""&&file!=undefined){
+                $.ajax({
+                    type:'post',
+                    url:basePath+"api/v1.0/file/upload",
+                    data:formData,
+                    async: false,
+                    contentType:false,
+                    processData:false,
+                    dataType:"json",
+                    success:function(res){
+                        window.filepath = res.response.data.file_path
+                        window.filename = res.response.data.file_name
+                    },
+                    error:function(data){
+                        plus.nativeUI.toast("上传失败！");
+                    }
+                })
+            }
             $http({
                 method:'post',
                 url:basePath+"api/v1.0/inforguide",
@@ -97,6 +117,8 @@ app.controller('myCtrl',function($scope,$http){
                     "guide_title":$scope.inforguide.title,
                     "guide_type":$scope.inforguide.type.text,
                     "guide_text":$scope.inforguide.text,
+                    "filename":window.filename,
+                    "filepath":window.filepath,
                     "images_list":JSON.stringify($scope.images)
                 }
             }).success(function(res){

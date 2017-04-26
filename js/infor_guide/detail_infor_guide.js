@@ -51,6 +51,14 @@ app.controller('myCtrl',function($scope,$http){
                 }
             })
     }
+    $scope.download_file=function(){
+        if($scope.data.filepath==""||$scope.data.filepath=="undefined"){
+            dhx_alert("无文件可下载")
+        }else{
+            window.location.href=$scope.data.filepath
+        }
+
+    }
 
     $scope.add_comment = function(){
         comment_content = document.getElementById("com_text").value
