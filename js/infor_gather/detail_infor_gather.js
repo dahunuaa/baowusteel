@@ -43,13 +43,18 @@ app.controller('myCtrl',function($scope,$http){
                             +"</span>"+"<br>"+"<span id='com_text 'style='font-size: 20px;'>"+array[index].text+"</span>"+"<p></p>"+"<hr style='width: 60%'/>";
                         comment_list.appendChild(li)
                     })
-
-
-
                 }else{
                     dhx_alert(res.response.return_code)
                 }
             })
+    }
+    $scope.download_file=function(){
+        if($scope.data.filepath==""||$scope.data.filepath=="undefined"){
+            dhx_alert("无文件可下载")
+        }else{
+            window.location.href=$scope.data.filepath
+        }
+
     }
 
     $scope.add_comment = function(){

@@ -85,6 +85,17 @@
             <div ng-bind="data.gather_text"></div>
         </td>
     </tr>
+    <tr id="file">
+        <td>
+            文件名
+        </td>
+        <td>
+            <span ng-bind="data.filename"></span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <button class="btn"  ng-click="download_file()">下载文件</button>
+        </td>
+
+    </tr>
 </table>
 <div style="text-align: center">
     <img style="max-width: 400px;height:auto" src={{img1}}>
