@@ -42,7 +42,7 @@ app.controller('myCtrl', function($scope,$http){
                             {id: "about_us", text: "关于我们",width: 160},
                             {id: "feedback", text: "意见反馈", width: 160},
                             {id: "notice", text: "通知公告", width: 160},
-                            {id: "report_download", text: "报表下载", width: 160},
+                            {id: "report_download", text: "文档下载", width: 160},
                             {id: "admin", text: "用户管理", width: 160}
                         ]
                     });
@@ -73,7 +73,7 @@ app.controller('myCtrl', function($scope,$http){
                             {id: "about_us", text: "关于我们",width: 160},
                             {id: "feedback", text: "意见反馈", width: 160},
                             {id: "notice", text: "通知公告", width: 160},
-                            {id: "report_download", text: "报表下载", width: 160},
+                            {id: "report_download", text: "文档下载", width: 160},
                         ]
                     });
                 }
@@ -221,6 +221,12 @@ app.controller('myCtrl', function($scope,$http){
                     onload: function () {
                         mySidebar_8.cells("report_download").attachURL("report/report_download.html");
                     }
+                });
+                mySidebar_8.attachEvent("onSelect",function(id){
+                    if(id =="images_files_download"){
+                        mySidebar_8.cells("images_files_download").attachURL("report/images_files_download.html");
+                    }
+
                 });
 
             }

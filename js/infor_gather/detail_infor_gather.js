@@ -52,6 +52,7 @@ app.controller('myCtrl',function($scope,$http){
         if($scope.data.filepath==""||$scope.data.filepath=="undefined"){
             dhx_alert("无文件可下载")
         }else{
+            // dhx_alert($scope.data.filepath)
             window.location.href=$scope.data.filepath
         }
 

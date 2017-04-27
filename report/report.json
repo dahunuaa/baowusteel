@@ -1,4 +1,5 @@
 {items:[
   {id:"report_download",text:"报表下载",icon:"documents.png",selected:true},
+  {id:"images_files_download",text:"图库/文件下载",icon:"documents.png"},
 
 ]}
