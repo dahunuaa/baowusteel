@@ -51,6 +51,7 @@ app.controller('myCtrl', function($scope,$http) {
             $scope.so_guide_type = ""
         }
         $http.get(basePath+get_url+"access_token="+localStorage.getItem("token")+
+            "&add_user_id^="+getCookie("user_id")+
             "&add_user_name^="+$scope.so_edit_name+
             "&guide_title^="+$scope.so_title+
             "&guide_type^="+$scope.so_guide_type+
@@ -154,6 +155,7 @@ app.controller('myCtrl', function($scope,$http) {
             $scope.so_guide_type = ""
         }
         $http.get(basePath+get_url+"access_token="+localStorage.getItem("token")+
+            "&add_user_id^="+getCookie("user_id")+
             "&add_user_name^="+$scope.so_edit_name+
             "&guide_title^="+$scope.so_title+
             "&guide_type^="+$scope.so_guide_type+

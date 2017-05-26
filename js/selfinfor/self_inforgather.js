@@ -54,6 +54,7 @@ app.controller('myCtrl', function($scope,$http) {
             $scope.so_oilfield = ""
         }
         $http.get(basePath+get_url+"access_token="+localStorage.getItem("token")+
+            "&add_user_id^="+getCookie("user_id")+
             "&add_user_name^="+$scope.so_edit_name+
             "&gather_title^="+$scope.so_title+
             "&gather_address^="+$scope.so_address+
@@ -161,6 +162,7 @@ app.controller('myCtrl', function($scope,$http) {
             $scope.so_oilfield = ""
         }
         $http.get(basePath+get_url+"access_token="+localStorage.getItem("token")+
+            "&add_user_id^="+getCookie("user_id")+
             "&add_user_name^="+$scope.so_edit_name+
             "&gather_address^="+$scope.so_address+
             "&gather_oilfield^="+$scope.so_oilfield+
